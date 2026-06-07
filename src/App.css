@@ -1,0 +1,27 @@
+:root {
+  /* Paper */
+  --paper-bright: #faf7f0;
+  --paper-base:   #f0ebe0;
+  --paper-aged:   #e4ddd0;
+  --paper-worn:   #d4cfc4;
+
+  /* Pencil */
+  --pencil-light:  #e8e0cc;
+  --pencil-mid:    #c9bfa8;
+  --pencil-smudge: #9c9080;
+  --pencil-dark:   #6b6355;
+  --pencil-heavy:  #3d3a32;
+  --pencil-construction: #c4a882;
+
+  /* Pen & Ink */
+  --ink-ballpoint: #4a5568;
+  --ink-sepia:     #7c5c38;
+  --ink-brush:     #2a2520;
+  --ink-black:     #1c1a16;
+  --ink-red:       #a83232;
+  --ink-fineliner: #2d6a6a;
+
+  /* Fonts */
+  --font-head:       'Kalam', cursive;
+  --font-body: 'Architects Daughter', cursive;
+}

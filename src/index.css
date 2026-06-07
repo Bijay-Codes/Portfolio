@@ -1,1 +1,9 @@
 @import 'tailwindcss';
+
+body{
+    background: var(--paper-base);
+}
+#root{
+    background: linear-gradient(to bottom, var(--paper-bright), var(--paper-aged), var(--paper-base));
+    height: 100vh;
+}

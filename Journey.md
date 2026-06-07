@@ -21,3 +21,9 @@ The commands were:
 5. git init repo name to create a new repo
 
 
+well Afternoon is here and im almost done with my project (atleast the data is shown now) and i will be adjusting the tone and words a little when i feel like it but for now afternoon session definietly was boring and very weird experience writing about myself but i made it somehow all thats left is making it look 'Sketchy' not the bad kind tho.
+
+I decided not to use typescript for the portfolio since its not even needed for this project and since it will slow down the loadspeed i figured i will use it in a diffrent project instead, also i dont think react was even the best for this job since its just a static file with no data being changed but i am treating this site like a playground and test if i really did improve my tailwind and react skills such that i dont need to ask Ai for things, and by my observation i have definietly improved my skills.
+
+### Keyboard Update
+When I opened up the keyboard, I saw a tiny kingdom run by a tiny queen ant and her sworded knights—probably taking shelter due to the ever-changing weather of my locality. They're part of the team now, Nope i cant deal with them they are absolutely going to get out of my keyboard.
