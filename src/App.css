@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Courier+Prime&display=swap');
 
 :root {
   /* Paper */
-  --paper-bright: #faf7f0;
+  --paper-bright: #f1ede3;
   --paper-base: #f0ebe0;
-  --paper-aged: #e4ddd0;
-  --paper-worn: #d4cfc4;
+  --paper-aged: #f4d9a7;
+  --paper-worn: #e9dbbe;
 
   /* Pencil */
   --pencil-light: #e8e0cc;
@@ -13,7 +13,7 @@
   --pencil-smudge: #9c9080;
   --pencil-dark: #6b6355;
   --pencil-heavy: #3d3a32;
-  --pencil-construction: #c4a882;
+  --pencil-construction: #ccbfad;
 
   /* Pen & Ink */
   --ink-ballpoint: #4a5568;
@@ -25,15 +25,13 @@
 
   /* Fonts */
   --font-head: 'Caveat', cursive;
-  --font-body: 'Indie Flower', cursive;
+  --font-body: 'Courier Prime', monospace;
 }
 
 .primary-font {
   font-family: var(--font-head);
-  font-size: 3rem;
 }
 
 .secondary-font {
   font-family: var(--font-body);
-  font-size: 1.5rem;
 }

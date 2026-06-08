@@ -8,7 +8,7 @@ import { RenderContacts } from './project-codes/components/contacts';
 import { RenderSketches } from './project-codes/components/sketches';
 function App() {
   return (
-    <div className='flex flex-col gap-4'>
+    <div className='flex flex-col gap-4 justify-center'>
       <RenderHeroSection />
       <RenderAboutSection />
       <RenderSkills />

@@ -25,7 +25,11 @@ export const portfolioData = {
         place: "Rourkela Steel Plant",
         duration: "1 Month",
         type: "Observation & Exposure Program",
-        description: "Observed IT/computer operations in an industrial environment as part of my institute curriculum.",
+        description: [
+            [`Gained enterprise-level exposure to industrial computing environments, observing how large-scale organizations structure their digital workflows.`],
+            [`Studied user interface needs and data layout structures used by plant operators across various administrative dashboards.`],
+            [`Observed the importance of system uptime, data consistency, and reliable software architecture in a high-volume production ecosystem.`]
+        ]
     },
 
     sketches: [
@@ -38,9 +42,9 @@ export const portfolioData = {
 
     contact: {
         social: [
-            ['email', "bijayprojects@gmail.com"],
-            ['github', "https://github.com/Bijay-Codes"],
-            ['linkedin', "https://www.linkedin.com/in/bijay-verma-876b353a4/"],
+            ['Email', "bijayprojects@gmail.com"],
+            ['Github', "https://github.com/Bijay-Codes"],
+            ['Linkedin', "https://www.linkedin.com/in/bijay-verma-876b353a4/"],
         ]
     },
 }

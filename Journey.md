@@ -27,3 +27,18 @@ I decided not to use typescript for the portfolio since its not even needed for 
 
 ### Keyboard Update
 When I opened up the keyboard, I saw a tiny kingdom run by a tiny queen ant and her sworded knights—probably taking shelter due to the ever-changing weather of my locality. They're part of the team now, Nope i cant deal with them they are absolutely going to get out of my keyboard.
+
+### Day 2-
+
+Well finally the portfolio is looking like a page now, I have added images of my sketches now and plan to add images of my projects as well plus a case study on both of them which i have written but i think this much is enough for today.
+
+I plan to optimize the site to be scannable but a bit quirky as well showing a little creativity there would be my priority, but there is a diffrence between imagining and actually doing something and in my imagination everything is possible-I can imagine a unicorn drinking coffee but coding doesn't work like that XD
+
+Tomorrows plan--- (if i do survive)
+1. Linking the case studies to projects
+2. Adding good screenshots of projects
+3. Make the site look sketchy
+4. More CSS
+5. More and MORE CSS
+6. Keep going
+

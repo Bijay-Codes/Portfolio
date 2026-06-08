@@ -1,20 +1,22 @@
 import { portfolioData } from "../Data/portfolio-data"
 export function RenderExperience() {
     return (
-        <section className="ml-2 px-2 py-3 secondary-font flex flex-col text-(--ink-brush)">
-            <h2 className="primary-font text-(--ink-black)">Training and Experience —</h2>
-            <div className="ml-3 m-2">
-                <div className="flex gap-2 flex-wrap">
+        <section className="p-4 secondary-font flex flex-col text-(--ink-brush) text-xl">
+            <h2 className="primary-font text-(--ink-black) text-3xl">Training and Experience —</h2>
+            <div>
+                <div>
                     <span>Place : </span>
-                    <span>
+                    <span className="text-(--ink-fineliner)">
                         {portfolioData.training.place}
-                    </span>
+                    </span> <br />
                     <span>Duration : </span>
                     <span>{portfolioData.training.duration}</span>
                     <div>{portfolioData.training.type}</div>
                 </div>
-                <h3 className="primary-font text-sm">What i did there? — </h3>
-                <div className="ml-2">{portfolioData.training.description}</div>
+                <h3 className="primary-font text-2xl">What i did there? </h3>
+                <ul>{portfolioData.training.description.map((point, i) => {
+                    return <li key={i}> ⭔ {point}</li>
+                })}</ul>
             </div>
         </section >
     )
