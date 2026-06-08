@@ -29,11 +29,11 @@ export const portfolioData = {
     },
 
     sketches: [
-        { name: "Jaguar", path: "/assets/sketches/jaguar.jpg" },
-        { name: "Zoro", path: "/assets/sketches/zoro.jpg" },
-        { name: "King Kong", path: "/assets/sketches/kingkong.jpg" },
-        { name: "Pain", path: "/assets/sketches/pain.jpg" },
-        { name: "Pennywise", path: "/assets/sketches/pennywise.jpg" },
+        { name: "Jaguar", path: "/assets/jaguar.webp" },
+        { name: "Zoro", path: "/assets/zoro.webp" },
+        { name: "Gorrila", path: "/assets/gorrila.webp" },
+        { name: "Pain", path: "/assets/pain.webp" },
+        { name: "Pennywise", path: "/assets/pennywise.webp" },
     ],
 
     contact: {
