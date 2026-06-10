@@ -1,15 +1,20 @@
 import { portfolioData } from "../Data/portfolio-data"
 export function RenderContacts() {
     return (
-        <footer id="contacts" className="flex gap-2 flex-wrap secondary-font sm:text-2xl text-sm p-2 text-center">
-            <div>Want to work with me? —</div>
-            <div>Let's make something memorable.</div>
+        <div id="contacts" className="flex gap-4 flex-wrap py-6 secondary-font text-xl p-2 text-center bg-(--pencil-mid)/50 text-(--pencil-heavy) rounded-t-xl">
+            <div className="text-3xl font-extralight primary-font">Want to work with me? —</div>
+            <span className="font-extrabold primary-font text-3xl">Let's make something memorable.</span>
             <ul className="flex gap-4 flex-wrap">
                 {portfolioData.contact.social.map(link => {
-                    return <li key={link[0]}><a href={link[1]}
-                        className="text-sm sm:text-xl bg-(--ink-ballpoint) px-2">{link[0]}</a></li>
+                    return <li key={link[0]}><a href={link[1]} target="_blank"
+                        className="text-base border-2 border-(--ink-heavy) text-(--ink-heavy) px-4 py-1.5 rounded-sm
+                        transition-all duration-200 tracking-wide
+                        hover:bg-(--paper-bright)/80">
+                        {link[0]}
+                    </a>
+                    </li>
                 })}
             </ul>
-        </footer>
+        </div>
     )
 }

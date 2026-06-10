@@ -14,9 +14,9 @@ export function RenderExperience() {
                     <div>{portfolioData.training.type}</div>
                 </div>
                 <h3 className="primary-font text-2xl">What i did there? </h3>
-                <ul>{portfolioData.training.description.map((point, i) => {
-                    return <li key={i}> ⭔ {point}</li>
-                })}</ul>
+                <p className="max-w-250">
+                    {portfolioData.training.description}
+                </p>
             </div>
         </section >
     )

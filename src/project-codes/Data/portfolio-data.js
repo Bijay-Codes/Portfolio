@@ -3,6 +3,7 @@ export const portfolioData = {
 
     projects: [
         {
+            image: '/assets/Favdex.webp',
             name: "Favdex",
             description: `A visual-first Pokédex where users can browse, filter by type,
              switch between shiny and normal sprites,
@@ -10,14 +11,16 @@ export const portfolioData = {
             techStack: ['React', 'Tailwind'],
             github: "https://github.com/Bijay-Codes/Favdex",
             live: "https://favdex.vercel.app",
-            caseStudy: "./case-study.html",
+            caseStudy: 'https://github.com/Bijay-Codes/Favdex/blob/main/case-study.md'
         },
         {
+            image: '/assets/tracker.webp',
             name: "Track talk",
             description: "An expense tracker that doesn't just track — it roasts you for suspicious behaviour like editing too much or deleting entries repeatedly.",
             techStack: ['HTML', 'CSS', 'Javascript'],
             github: "https://github.com/Bijay-Codes/Expenses-Tracker",
             live: "https://track-talker.vercel.app",
+            caseStudy: 'https://github.com/Bijay-Codes/Expenses-Tracker/blob/main/case-study.md'
         },
     ],
 
@@ -25,11 +28,7 @@ export const portfolioData = {
         place: "Rourkela Steel Plant",
         duration: "1 Month",
         type: "Observation & Exposure Program",
-        description: [
-            [`Gained enterprise-level exposure to industrial computing environments, observing how large-scale organizations structure their digital workflows.`],
-            [`Studied user interface needs and data layout structures used by plant operators across various administrative dashboards.`],
-            [`Observed the importance of system uptime, data consistency, and reliable software architecture in a high-volume production ecosystem.`]
-        ]
+        description: "Completed a 1-month observation program at Rourkela Steel Plant (SAIL) — one of India's largest steel producers. Got exposure to enterprise-scale infrastructure, network setups, and industrial computing environments."
     },
 
     sketches: [

@@ -30,8 +30,57 @@
 
 .primary-font {
   font-family: var(--font-head);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
 .secondary-font {
   font-family: var(--font-body);
+  line-height: 1.4;
+}
+
+img {
+  outline: 1px solid var(--pencil-dark);
+  transition: outline ease;
+}
+
+img:hover {
+  outline: 2px solid var(--ink-ballpoint);
+}
+
+.nooutline {
+  outline: none;
+}
+
+.nooutline:hover {
+  outline: none;
+}
+
+.sketch {
+  position: relative;
+  box-shadow:
+    2px 2px 0 var(--ink-ballpoint),
+    3px 3px 0 var(--ink-ballpoint);
+  border-radius: 2rem 3rem 2rem 1.2rem / 2.1rem 1rem 1.4rem 1.2rem;
+  overflow: hidden;
+}
+
+.sketch-2 {
+  overflow: hidden;
+  box-shadow:
+    1px 5px 0 var(--ink-ballpoint),
+    0.5px 1px 0 var(--ink-ballpoint);
+  border-radius: 1rem 1rem 2rem 1.2rem / 1rem 1rem 5.4rem 3.2rem;
+
+}
+
+.sketch::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: repeating-linear-gradient(45deg, var(--pencil-construction) 2% 40%, transparent 6% 100%);
+  opacity: 0.4;
 }

@@ -1,5 +1,5 @@
 @import 'tailwindcss';
 
 #root {
-    background: var(--paper-bright);
+    background: linear-gradient(135deg, var(--paper-bright), var(--paper-worn));
 }

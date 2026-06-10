@@ -42,3 +42,8 @@ Tomorrows plan--- (if i do survive)
 5. More and MORE CSS
 6. Keep going
 
+Hmmm
+### Lost Track of the time
+
+Well the site is finally very sketchy now all the links, tags, images and data is being loaded normally.
+You might see that the site is very static with not much background and animation being used because the site is a sketch themed one i dont think it should be moving all that much if it does it will look weird though i added little movement to the projects and contact links but thats okay i guess as long as its minimal
