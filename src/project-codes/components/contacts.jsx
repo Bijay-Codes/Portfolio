@@ -6,7 +6,7 @@ export function RenderContacts() {
             <span className="font-extrabold primary-font text-3xl">Let's make something memorable.</span>
             <ul className="flex gap-4 flex-wrap">
                 {portfolioData.contact.social.map(link => {
-                    return <li key={link[0]}><a href={link[1]} target="_blank"
+                    return <li key={link[0]}><a href={`mailto:${link[1]}`} target="_blank"
                         className="text-base border-2 border-(--ink-heavy) text-(--ink-heavy) px-4 py-1.5 rounded-sm
                         transition-all duration-200 tracking-wide
                         hover:bg-(--paper-bright)/80">
