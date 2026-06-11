@@ -47,3 +47,13 @@ Hmmm
 
 Well the site is finally very sketchy now all the links, tags, images and data is being loaded normally.
 You might see that the site is very static with not much background and animation being used because the site is a sketch themed one i dont think it should be moving all that much if it does it will look weird though i added little movement to the projects and contact links but thats okay i guess as long as its minimal
+
+
+### Day after yesterday...
+
+The state of project changed i have added a resume download button to list the summary of my life in a structured way for easy to read and skim and since i dont have proof of typescript being in learning phase i removed it and actually just divided the skills into hard skills like languages and soft skills like ui/ux thinking etc which was a good separation of skills i guess.
+
+Since this is a portfolio site i will be coming here every once in a while to add stuff like next time i come here i will add a typescript project i believe it will be time taking but i could be wrong. 
+
+Till then i will still work on this portfolio any way i can to make it look good and more readable.
+New things i learn like im trying to learn UI/UX concepts as for now.

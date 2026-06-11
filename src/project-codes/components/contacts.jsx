@@ -1,7 +1,9 @@
 import { portfolioData } from "../Data/portfolio-data"
 export function RenderContacts() {
     return (
-        <div id="contacts" className="flex gap-4 flex-wrap py-6 secondary-font text-xl p-2 text-center bg-(--pencil-mid)/50 text-(--pencil-heavy) rounded-t-xl">
+        <div id="contacts" className="flex gap-4 flex-wrap
+         py-6 secondary-font text-xl p-2
+          bg-(--pencil-mid)/50 text-(--pencil-heavy) rounded-t-xl outline-1 outline(--ink-dark)/80 text-left md:text-center">
             <div className="text-3xl font-extralight primary-font">Want to work with me? —</div>
             <span className="font-extrabold primary-font text-3xl">Let's make something memorable.</span>
             <ul className="flex gap-4 flex-wrap">

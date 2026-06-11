@@ -1,13 +1,16 @@
 export const portfolioData = {
-    skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Git"],
+    skills: {
+        languages: ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Git", "API Integration"],
+        softSkills: ["Responsive Design", "Performance Optimization", "UX Design", "Behavioral Logic"]
+    },
 
     projects: [
         {
             image: '/assets/Favdex.webp',
             name: "Favdex",
-            description: `A visual-first Pokédex where users can browse, filter by type,
-             switch between shiny and normal sprites,
-             and build their own Favorite list (Favdex) by feeding Pokémon berries.`,
+            description: `Most Pokédex sites are boring data dumps. I built Favdex to be visual-first — shiny toggles, sprite styles, audio,
+             and a berry-feeding mechanic to keep users coming back daily because I wanted my work to be used daily,
+             not abandoned. First project learning React + Tailwind + API integration.`,
             techStack: ['React', 'Tailwind'],
             github: "https://github.com/Bijay-Codes/Favdex",
             live: "https://favdex.vercel.app",
@@ -16,7 +19,10 @@ export const portfolioData = {
         {
             image: '/assets/tracker.webp',
             name: "Track talk",
-            description: "An expense tracker that doesn't just track — it roasts you for suspicious behaviour like editing too much or deleting entries repeatedly.",
+            description: `Most expense trackers just log your spending.
+             I built Track Talk to force accountability — a 24-hour lock makes expenses permanent,
+             and a roasting engine tracks edit/delete ratios to catch you hiding or lying to yourself. Casual spending gets a nag. Suspicious behavior gets roasted.
+             The message: own what you spent, nobody's watching you.`,
             techStack: ['HTML', 'CSS', 'Javascript'],
             github: "https://github.com/Bijay-Codes/Expenses-Tracker",
             live: "https://track-talker.vercel.app",
