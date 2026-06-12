@@ -3,6 +3,9 @@ export function RenderSketches() {
     return (
         <section className="p-2 mb-15">
             <h1 className="text-3xl primary-font text-(--pencil-black) mb-6">My Sketches</h1>
+            <p className="text-xl text-(--pencil-dark) secondary-font max-w-250">
+                My UI taste is shaped by years of sketching — I visualize how a site should look before it ever enters the editor.
+            </p>
             <div className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-6 sm:px-4">
                 {portfolioData.sketches.map((sketch, i) => {
                     return (

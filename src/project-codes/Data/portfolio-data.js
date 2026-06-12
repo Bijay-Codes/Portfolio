@@ -21,7 +21,7 @@ export const portfolioData = {
             name: "Track talk",
             description: `Most expense trackers just log your spending.
              I built Track Talk to force accountability — a 24-hour lock makes expenses permanent,
-             and a roasting engine tracks edit/delete ratios to catch you hiding or lying to yourself. Casual spending gets a nag. Suspicious behavior gets roasted.
+             and a roasting engine tracks edit/delete ratios to catch you hiding or lying to yourself. Casual spending gets a nag. Suspicious behavior gets called-out.
              The message: own what you spent, nobody's watching you.`,
             techStack: ['HTML', 'CSS', 'Javascript'],
             github: "https://github.com/Bijay-Codes/Expenses-Tracker",
@@ -40,9 +40,6 @@ export const portfolioData = {
     sketches: [
         { name: "Jaguar", path: "/assets/jaguar.webp" },
         { name: "Zoro", path: "/assets/zoro.webp" },
-        { name: "Gorrila", path: "/assets/gorrila.webp" },
-        { name: "Pain", path: "/assets/pain.webp" },
-        { name: "Pennywise", path: "/assets/pennywise.webp" },
     ],
 
     contact: {

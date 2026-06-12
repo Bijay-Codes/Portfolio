@@ -8,7 +8,9 @@ export function RenderProjects() {
             <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4 text-(--pencil-dark) max-w-[80%]">
                 {
                     portfolioData.projects.map(proj => (
-                        <div key={proj.name} className="hover:bg-(--paper-worn)/60 hover:outline-2 duration-600 shadow-2xl shadow-black/50 ease-in-out flex flex-col gap-3 border border-(--ink-ballpoint) rounded-lg bg-(--paper-worn)/10 sketch-2 p-3">
+                        <div key={proj.name}
+                            className="hover:bg-(--paper-worn)/60 hover:outline-2 duration-600 shadow-2xl shadow-black/50
+                          ease-in-out flex flex-col gap-3 border border-(--ink-ballpoint) rounded-lg bg-(--paper-worn)/10 sketch-2 p-3">
                             <div className="w-full h-fit overflow-hidden">
                                 <img loading="lazy"
                                     src={proj.image}
